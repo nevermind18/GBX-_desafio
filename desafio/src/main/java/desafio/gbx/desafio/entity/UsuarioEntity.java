@@ -1,0 +1,1 @@
+package desafio.gbx.desafio.entity;import jakarta.persistence.*;import lombok.Data;@Data@Entitypublic class UsuarioEntity {    @Id    @GeneratedValue(strategy = GenerationType.IDENTITY)    private long id;    private String nome;    private long numeroConta;    private double saldo;}
